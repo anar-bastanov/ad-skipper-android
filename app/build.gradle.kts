@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.anar.adskipper"
+    namespace = "com.anarbastanov.adskipper"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.anar.adskipper"
+        applicationId = "com.anarbastanov.adskipper"
         minSdk = 25
         targetSdk = 35
         versionCode = 1

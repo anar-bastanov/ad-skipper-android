@@ -9,9 +9,9 @@
         android:shortcutDisabledMessage="@string/shortcut_disabled_message">
 
         <intent
-            android:action="com.anar.adskipper.OPEN_SETTINGS_SHORTCUT"
-            android:targetPackage="com.anar.adskipper"
-            android:targetClass="com.anar.adskipper.MainActivity" />
+            android:action="com.anarbastanov.adskipper.OPEN_SETTINGS_SHORTCUT"
+            android:targetPackage="com.anarbastanov.adskipper"
+            android:targetClass="com.anarbastanov.adskipper.MainActivity" />
 
         <categories android:name="android.shortcut.conversation" />
 

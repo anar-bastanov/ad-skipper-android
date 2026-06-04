@@ -1,4 +1,4 @@
-package com.anar.adskipper
+package com.anarbastanov.adskipper
 
 import android.app.Activity
 import android.content.ComponentName
@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
 
         am = getSystemService(ACCESSIBILITY_SERVICE) as AccessibilityManager
 
-        if (intent?.action == "com.anar.adskipper.OPEN_SETTINGS_SHORTCUT") {
+        if (intent?.action == "com.anarbastanov.adskipper.OPEN_SETTINGS_SHORTCUT") {
             openAccessibilitySettings()
             finishNoAnim()
             return

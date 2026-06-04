@@ -1,4 +1,4 @@
-package com.anar.adskipper
+package com.anarbastanov.adskipper
 
 import android.accessibilityservice.AccessibilityService
 import android.accessibilityservice.AccessibilityServiceInfo
